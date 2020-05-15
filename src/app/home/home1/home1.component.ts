@@ -8,7 +8,7 @@ import { Component, OnInit, OnDestroy, OnChanges, AfterContentInit } from '@angu
 })
 export class Home1Component {
 
-  
+
  
 
 

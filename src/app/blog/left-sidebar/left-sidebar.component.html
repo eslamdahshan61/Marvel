@@ -5,10 +5,17 @@
         <div class="col-md-12">
           <div class="blog-page-content-table">
             <div class="blog-table-cell">
-              <h2>Blog Post</h2>
-              <h4>Blog Post With Sidebar</h4>
+                <h2>{{"Home.Blog Post"|translate}}</h2>
+                <h4>{{"Home.Blog Post With Sidebar"|translate}}</h4>
             </div>
           </div>
+          <div class="back-links">
+            <ul class="list-inline">
+                <li><a [routerLink]="['/home']">{{"Home.Home"|translate}}</a></li>
+                <li class="active">- {{"Home.Blog Details"|translate}}</li>
+            </ul>
+          </div>
+        <img src="assets/img/screen/about-hero1.png" alt="image" class="about-hero">
         </div>
       </div>
     </div>
@@ -27,14 +34,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                            <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -45,14 +52,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                  <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                              <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -65,14 +72,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                  <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                              <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -83,14 +90,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                  <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                              <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -103,14 +110,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                  <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                              <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -121,14 +128,14 @@
                           </div>
                           <div class="post-meta clearfix">
                               <div class="posted-by pull-left">
-                                  <p><a href="#"><span class="ti-user"></span>Feb 01.2017</a></p>
+                                  <p><a href="#"><span class="ti-user"></span>{{"Home.date"|translate}}</a></p>
                               </div>
                               <div class="post-date pull-right">
                                   <p><a href="#"><span class="ti-comment"></span>(23)</a></p>
                               </div>
                           </div>
                           <div class="blog-heading">
-                              <a href="#"><h2>Beautiful Place for your Great Journey</h2></a>
+                              <a href="#"><h2>{{"Home.p12"|translate}}</h2></a>
                           </div>
                       </div>
                   </div>
@@ -142,20 +149,20 @@
                   </div>
               </div>
               <div class="blog-categories-right">
-                  <h2>Categories</h2>
-                  <div class="categories-right-list">
-                      <ul>
-                          <li><a href="#">Adventures (12)</a></li>
-                          <li><a href="#">Traveling (08)</a></li>
-                          <li class="active"><a href="#">Lifestyle (10)</a></li>
-                          <li><a href="#">Foods (05)</a></li>
-                          <li><a href="#">Trendy Fashion (07)</a></li>
-                          <li><a href="#">Popular (07)</a></li>
-                      </ul>
+                <h2>{{"Home.Categories"|translate}}</h2>
+                <div class="categories-right-list">
+                    <ul>
+                        <li><a href="#">{{"Home.Adventures"|translate}} (12)</a></li>
+                        <li><a href="#">{{"Home.Traveling"|translate}} (08)</a></li>
+                        <li class="active"><a href="#">{{"Home.Lifestyle"|translate}} (10)</a></li>
+                        <li><a href="#">{{"Home.Foods"|translate}} (05)</a></li>
+                        <li><a href="#">{{"Home.Trendy Fashion"|translate}} (07)</a></li>
+                        <li><a href="#">{{"Home.Popular"|translate}} (07)</a></li>
+                    </ul>
                   </div>
               </div>
               <div class="blog-recent-post">
-                  <h3>Recent Post</h3>
+                  <h3>{{"Home.Recent Post"|translate}}</h3>
                   <div class="row">
                       <div class="col-md-5 col-sm-5 col-xs-5">
                           <div class="blog-recent-post-image-1">
@@ -164,9 +171,9 @@
                       </div>
                       <div class="col-md-7 col-sm-7 col-xs-7">
                           <div class="blog-recent-post-content">
-                              <p>Feb 01, 2017</p>
+                              <p>{{"Home.date"|translate}}</p>
                               <a href="#">
-                                  <h2>Lorem Imsum Dummy Text Title Goes.</h2>
+                                  <h2>{{"Home.p1"|translate}}</h2>
                               </a>
                           </div>
                       </div>
@@ -179,9 +186,9 @@
                       </div>
                       <div class="col-md-7 col-sm-7 col-xs-7">
                           <div class="blog-recent-post-content">
-                              <p>Feb 01, 2017</p>
+                              <p>{{"Home.date"|translate}}</p>
                               <a href="#">
-                                  <h2>Lorem Imsum Dummy Text Title Goes.</h2>
+                                  <h2>{{"Home.p1"|translate}}</h2>
                               </a>
                           </div>
                       </div>
@@ -194,28 +201,28 @@
                       </div>
                       <div class="col-md-7 col-sm-7 col-xs-7">
                           <div class="blog-recent-post-content">
-                              <p>Feb 01, 2017</p>
+                              <p>{{"Home.date"|translate}}</p>
                               <a href="#">
-                                  <h2>Lorem Imsum Dummy Text Title Goes.</h2>
+                                  <h2>{{"Home.p1"|translate}}</h2>
                               </a>
                           </div>
                       </div>
                   </div>
               </div>
               <div class="blog-tag-cloud">
-                  <h2>Tags Cloud</h2>
-                  <div class="blog-tag-cloud-list">
-                      <ul>
-                          <li><a href="#">Travels</a></li>
-                          <li class="active"><a href="#">Adverture</a></li>
-                          <li><a href="#">Foods</a></li>
-                          <li><a href="#">Lifestyle</a></li>
-                          <li><a href="#">Traveling</a></li>
-                          <li><a href="#">Photography</a></li>
-                          <li><a href="#">Trends</a></li>
-                          <li><a href="#">Fashion</a></li>
-                          <li><a href="#">Music</a></li>
-                      </ul>
+                <h2>{{"Home.Tags Cloud"|translate}}</h2>
+                <div class="blog-tag-cloud-list">
+                    <ul>
+                        <li><a href="#">{{"Home.Travels"|translate}}</a></li>
+                        <li class="active"><a href="#">{{"Home.Adverture"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Foods"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Lifestyle"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Traveling"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Photography"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Trends"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Fashion"|translate}}</a></li>
+                        <li><a href="#">{{"Home.Music"|translate}}</a></li>
+                    </ul>
                   </div>
               </div>
           </div>
@@ -223,71 +230,84 @@
   </div>
       <div class="other-page-link">
           <ul class="pagination">
-              <li><a href="#">newer post</a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">older post</a></li>
+            <li><a href="#">{{"Home.newer post"|translate}}</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">{{"Home.older post"|translate}}</a></li>
           </ul>
       </div>
 </section>
 
-   <!-- subscription area start -->
-  <section id="subscribe-area">
-      <div class="container">
-          <div class="subscribe-wrapper">
-              <div class="row">
-                  <div class="col-sm-4">
-                      <div class="subscribe-text">
-                          <h2>SubscribE Now</h2>
-                      </div>
-                  </div>
-                  <div class="col-sm-8">
-                      <div class="subscribe-box">
-                          <form class="subscription-form" method="POST" action="php/subscribe.php">
-                              <input type="email" class="form-control" id="subscribe-input" name="subscribe-input" placeholder="Enter Your Email Address">
-                              <button class="email-submit-btn" type="submit">go</button>
-                          </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-    <!-- CONTACT SECTION -->
-  <section class="footer-bg">
-  <div id="contact-section" class="gray-bg">
-      <div class="container">
-          <div class="contact-wrapper">
-          <div class="row">
-                  <div class="col-sm-5">
-                      <div class="contact-form-area">
-                          <h2 class="text-capitalize">Contact us</h2>
-                          <form id="digita-contact-form" action="php/contact-mail.php" method="POST">
-                              <div class="form-group">
-                                  <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name*">
-                              </div>
-                              <div class="form-group">
-                                  <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address*">
-                              </div>
-                              <div class="form-group">
-                                  <input type="text" class="form-control" id="Website" name="website" placeholder="Your Website">
-                              </div>
-                              <div class="form-group">
-                                  <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Write Message*"></textarea>
-                              </div>
-                              <button type="submit" class="btn btn-blue"><img src="assets/img/icons/send-icon.png" alt="place your img"></button>
-                              <p class="contact-send-message"></p>
-                          </form>
-                      </div>
-                  </div>
-              <div class="col-sm-7">
-                <div class="google-map">
-                    <div id="map"></div>
+
+
+
+
+ <!-- subscription area start -->
+ <section id="subscribe-area">
+    <div class="container">
+        <div class="subscribe-wrapper">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <div id="Contact" class="subscribe-text">
+                        <h2>{{"Home.SubscribE Now" | translate}}</h2>
+                    </div>
                 </div>
-              </div>
-          </div>
-      </div>
-      </div>
-  </div>
+                <div class="col-sm-8 col-xs-12">
+                    <div class="subscribe-box">
+                        <form action="http://hackinout.us15.list-manage.com/subscribe/post-json?u=e44c1f194bec93e238615469e&amp;id=fa63cb4ac7&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required>
+                            <div aria-hidden="true">
+                                <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
+                            </div>
+                            <input type="submit" value="GO" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
+                            <div id="subscribe-result">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+<section class="footer-bg">
+<div id="contact-section" class="gray-bg">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="row">
+                    <div class="col-sm-5">
+                        <div class="contact-form-area">
+                            <h2 class="text-capitalize">{{"Home.Contact us" | translate}}</h2>
+                            <form id="digita-contact-form" action="php/contact-mail.php" method="POST">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Website" name="website" placeholder="Your Website">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Write Message*"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-blue"><img src="assets/img/icons/send-icon.png" alt="place your img"></button>
+                                <p class="contact-send-message"></p>
+                            </form>
+                        </div>
+                    </div>
+                <div class="col-sm-7">
+                    <div class="google-map">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+  

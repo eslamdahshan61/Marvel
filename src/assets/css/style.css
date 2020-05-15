@@ -140,7 +140,12 @@ Version: 1.0
 .scrolltotop.homepage-4 {
     background: #64D0FF none repeat scroll 0 0;
 }
-
+#arabic{
+/* display: none; */
+}
+#english{
+    display: none;
+    }
 
 .preloader-wrapper {
     background: #00c9fd;
@@ -164,6 +169,7 @@ Version: 1.0
     font-size: 36px;
     font-weight: 700;
     color: #2c324b;
+    margin-top: 50px;
 
 }
 .section-heading.text-center img {
@@ -432,6 +438,16 @@ ul.dropdown-nav.dropdown-nav-left li:last-child {
     overflow: hidden;
     z-index: 2;
     height: 100vh;
+}
+.icon{
+    background-image: url(../img/icons/download.png);
+    width: 24px !important;
+    height: 24px !important;
+}
+.imo{
+    width: 24px !important;
+    height: 24px !important;
+   
 }
 
 
@@ -4915,8 +4931,11 @@ button.pricing-btn.blue-btn:after {
     color: #2c324b;
     font-weight: 600;
 }
- .back-links li {
+ /* .back-links li {
     padding-right: 0;
+} */
+.activated{
+    color:#000 !important;
 }
 
  li.active {
@@ -5439,9 +5458,7 @@ a.pricing-btn.blue-btn:hover{
     padding: 0px 40px 30px 40px;
 }
 
-.beefup.is-open > .beefup__head {
- /* color: #fff; */
-}
+
 
 .beefup.is-open > .beefup__head::after {
     border-bottom: 0px solid #999;
@@ -5585,3 +5602,8 @@ ul.nav.nav-tabs li.active a:after {
     float: none;
     margin-bottom: 0px;
 }
+@media (min-width: 768px){
+.navbar-nav {
+  float: right !important;
+    margin-left: 3px;
+}}

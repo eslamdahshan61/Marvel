@@ -22,10 +22,16 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FeaturesComponent } from './features/features.component';
 import { PricingComponent } from './pricing/pricing.component';
-import { ScreenshotsComponent } from './screenshots/screenshots.component';
 import { TestimonialComponent } from './pages/testimonial/testimonial.component';
 
 
+import { HttpClientModule, HttpClient } from "@angular/common/http";
+import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
+import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 
 @NgModule({
@@ -49,8 +55,8 @@ import { TestimonialComponent } from './pages/testimonial/testimonial.component'
     ContactComponent,
     FeaturesComponent,
     PricingComponent,
-    ScreenshotsComponent,
     TestimonialComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -61,7 +67,6 @@ import { TestimonialComponent } from './pages/testimonial/testimonial.component'
       { path: "register", component: RegisterComponent },
       { path: "features", component: FeaturesComponent },
       { path: "about", component: AboutComponent },
-      { path: "screenshouts", component: ScreenshotsComponent },
       { path: "pricing", component: PricingComponent },
       { path: "details", component: DetailsComponent },
       { path: "full", component: PostFullComponent },
@@ -83,6 +88,14 @@ import { TestimonialComponent } from './pages/testimonial/testimonial.component'
       { path: "**", redirectTo: "home", pathMatch: "full" },
        
     ]),
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
     
   ],
   providers: [],

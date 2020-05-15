@@ -9,7 +9,9 @@ export class RightSidebarComponent implements OnInit {
 
   constructor() { }
 
+ 
   ngOnInit(): void {
+    
   }
 
 }

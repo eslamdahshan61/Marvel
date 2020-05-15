@@ -9,6 +9,7 @@ export class PostFullComponent implements OnInit {
 
   constructor() { }
 
+ 
   ngOnInit(): void {
   }
 

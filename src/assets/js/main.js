@@ -198,6 +198,13 @@
         }
     });
 
+
+
+/* 
+    $(".home12").removeAttr("href");
+    $(".about12").removeAttr("href");
+    $(".features12").removeAttr("href");
+    $(".features12").attr("[routerLink]='['/features']'"); */
     
 
             // app screenshot carousel

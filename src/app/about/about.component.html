@@ -4,14 +4,14 @@
       <div class="col-md-12">
         <div class="blog-page-content-table">
           <div class="blog-table-cell">
-            <h2>About Bufet</h2>
-            <p>Now we are fast growing mobile app and Business as a Service (saas) <br> service provider of the world. Check out little bit about us.</p>
+            <h2>{{"Home.About Bufet" | translate}}</h2>
+            <p>{{"Home.p13" | translate}} <br> {{"Home.p14" | translate}}</p>
           </div>
         </div>
           <div class="back-links">
             <ul class="list-inline">
-              <li><a [routerLink]="['/home']">Home</a></li>
-              <li class="active">-  About Bufet</li>
+              <li><a [routerLink]="['/home']">{{"Home.Home" | translate}}</a></li>
+              <li class="active">-  {{"Home.About Bufet" | translate}}</li>
             </ul>
           </div>
         <img src="assets/img/screen/about-hero1.png" alt="image" class="about-hero">
@@ -20,67 +20,68 @@
   </div>
 </section>
 <section class="feature-area">
-<div class="container">
-<div class="row">
-  <div class="col-md-4 col-sm-4">
-    <div class="single-feature">
-      <span class="counter-number">01</span>
-      <div class="feature-img">
-        <span class="ti-vector"></span>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-4">
+              <div class="single-feature">
+                  <span class="counter-number">01</span>
+                  <div class="feature-img">
+                      <span class="ti-vector"></span>
+                  </div>
+                  <a [routerLink]="['/features']"><h2>{{"Home.Forcast Sales" | translate}}</h2></a>
+                  <p>{{"Home.p3" | translate}}</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+              <div class="single-feature">
+                  <span class="counter-number">02</span>
+                  <div class="feature-img">
+                      <span class="ti-panel"></span>
+                  </div>
+                  <a [routerLink]="['/features']"><h2>{{"Home.Retargetion Customer" | translate}}</h2></a>
+                  <p>{{"Home.p3" | translate}}</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+              <div class="single-feature">
+                  <span class="counter-number">03</span>
+                  <div class="feature-img">
+                      <span class="ti-desktop"></span>
+                  </div>
+                  <a [routerLink]="['/features']"><h2>{{"Home.High Performance" | translate}}</h2></a>
+                  <p>{{"Home.p3" | translate}}</p>
+              </div>
+          </div>
       </div>
-      <a href="#"><h2>Forcast Sales</h2></a>
-      <p>Adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amt, consectet incididunt ipsum lorem</p>
-    </div>
   </div>
-  <div class="col-md-4 col-sm-4">
-    <div class="single-feature">
-      <span class="counter-number">02</span>
-      <div class="feature-img">
-        <span class="ti-panel"></span>
-      </div>
-      <a href="#"><h2>Retargetion Customer</h2></a>
-      <p>Adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amt, consectet incididunt ipsum lorem</p>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-4">
-    <div class="single-feature">
-      <span class="counter-number">03</span>
-      <div class="feature-img">
-        <span class="ti-desktop"></span>
-      </div>
-      <a href="#"><h2>High Performance</h2></a>
-      <p>Adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amt, consectet incididunt ipsum lorem</p>
-    </div>
-  </div>
-</div>
-</div>
 </section>
 <section id="about"  class="about-area">
-<div class="container">
-<div class="row">
-  <div class="col-md-6 col-sm-6 ">
-    <div class="about-left">
-      <img src="assets/img/screen/mobile-2.png" alt="place your img" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-    </div>
-  </div>
-  <div class="col-md-6 col-sm-6 col-xs-12">
-    <div class="about-right">
-      <h2>Why  Bufet ?</h2>
-      <p>Mistaken idea of denouncing pleasure and praising  was born and I will give you a complete account of the system, and expound. mistaken you a complete account.</p>
-      <p class="another">Mistaken idea of denouncing pleasure and praising  was born and I will give you a complete account of the system.</p>
-      <div class="about-list">
-        <ul>
-          <li>Mistaken idea of denouncing pleasure and praising pain.</li>
-          <li>Mistaken idea of denouncing pleasure and praising pain idea of
-          idea of denouncing pleasure and praising</li>
-          <li>Mistaken idea of denouncing pleasure and praising pain.</li>
-        </ul>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 col-sm-6 ">
+              <div class="about-left">
+                  <img src="assets/img/screen/mobile-2.png" alt="place your img" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+              </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="about-right">
+                  <h2>{{"Home.Why Bufet ?" | translate}}</h2>
+                  <p>{{"Home.p5" | translate}}</p>
+                  <p class="another">{{"Home.p5" | translate}}</p>
+                  <div class="about-list">
+                      <ul>
+                          <li>{{"Home.p5" | translate}}</li>
+                          <li>{{"Home.p5" | translate}}</li>
+                          <li>{{"Home.p5" | translate}}</li>
+                          <li>{{"Home.p5" | translate}}</li>
+                      </ul>
+                  </div>
+                  <a  [routerLink]="['/about']" class="about-btn">{{"Home.read more" | translate}}</a>
+              </div>
+          </div>
       </div>
-      <a href="#" class="about-btn">read more</a>
-    </div>
   </div>
-</div>
-</div>
+</section>
 
 <!--FUN FACT AREA AREA-->
 <!-- 
@@ -122,9 +123,9 @@
     <div class="row">
         <div class="col-md-12">
           <div class="section-heading text-center">
-              <h2>Team Member</h2>
+              <h2>{{"Home.Team Member" | translate}}</h2>
               <img src="assets/img/section/section-icon.png" alt="place your img">
-              <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incidit labore Lorem ipsum amet madolor sit amet.</p>
+              <p>{{"Home.p2" | translate}}</p>
           </div>
         </div>
     </div>
@@ -133,12 +134,12 @@
         <div class="team-carosule-single-item">
             <img src="assets/img/team/team-member.jpg" alt="team member">
             <div class="team-meta">
-                <h4>Nathan Silva</h4>
-                <p>CEO at Bufet</p>
+                <h4>{{"Home.Nathan Silva" | translate}}</h4>
+                <p>{{"Home.CEO at Bufet" | translate}}</p>
             </div>
             <div class="team-overlay">
-                <h5>Anna Watson</h5>
-                <p class="meta-p">Founder</p>
+                <h5>{{"Home.Anna Watson" | translate}}</h5>
+                <p class="meta-p">{{"Home.Founder" | translate}}</p>
                 <div class="team-social-links">
                     <div class="social-links">
                         <a href="#" target="_blank"><span class="ti-facebook"></span></a>
@@ -154,12 +155,12 @@
         <div class="team-carosule-single-item">
             <img src="assets/img/team/team-member-2.jpg" alt="team member">
             <div class="team-meta">
-                <h4>Mrs. Lisa Silva</h4>
-                <p>Content Writer</p>
+                <h4>{{"Home.Mrs. Lisa Silva" | translate}}</h4>
+                <p>{{"Home.Content Writer" | translate}}</p>
             </div>
             <div class="team-overlay">
-                <h5>M S Newaz</h5>
-                <p class="meta-p">Strategic Planner</p>
+                <h5>{{"Home.M S Newaz" | translate}}</h5>
+                <p class="meta-p">{{"Home.Strategic Planner" | translate}}</p>
                 <div class="team-social-links">
                     <div class="social-links">
                         <a href="#" target="_blank"><span class="ti-facebook"></span></a>
@@ -176,12 +177,12 @@
         <div class="team-carosule-single-item">
             <img src="assets/img/team/team-member-3.jpg" alt="team member">
             <div class="team-meta">
-                <h4>Richard Burke</h4>
-                <p>Creative Director</p>
+                <h4>{{"Home.Richard Burke" | translate}}</h4>
+                <p>{{"Home.Creative Director" | translate}}</p>
             </div>
             <div class="team-overlay">
-                <h5>Cristian Elora</h5>
-                <p class="meta-p">Art Director</p>
+                <h5>{{"Home.Cristian Elora" | translate}}</h5>
+                <p class="meta-p">{{"Home.Art Director" | translate}}</p>
                 <div class="team-social-links">
                     <div class="social-links">
                         <a href="#" target="_blank"><span class="ti-facebook"></span></a>
@@ -198,12 +199,12 @@
         <div class="team-carosule-single-item">
             <img src="assets/img/team/team-member-4.jpg" alt="team member">
             <div class="team-meta">
-                <h4>Susan Riley</h4>
-                <p>ui Designer</p>
+                <h4>{{"Home.Susan Riley" | translate}}</h4>
+                <p>{{"Home.ui Designer" | translate}}</p>
             </div>
             <div class="team-overlay">
-                <h5>Ohidul Islam</h5>
-                <p class="meta-p">Web Developer</p>
+                <h5>{{"Home.Ohidul Islam" | translate}}</h5>
+                <p class="meta-p">{{"Home.Web Developer" | translate}}</p>
                 <div class="team-social-links">
                     <div class="social-links">
                         <a href="#" target="_blank"><span class="ti-facebook"></span></a>
@@ -355,111 +356,188 @@
 
 <!--DOWNLOAD-AREA-->
 <section class="download-area">
-    <div id="background-19" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-20" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-21" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-22" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-23" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-24" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-25" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-26" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-27" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-28" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-29" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-30" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-31" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-32" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-33" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-34" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-35" class="mouse-bg hidden-xs hidden-sm"></div>
-    <div id="background-36" class="mouse-bg hidden-xs hidden-sm"></div>
-  <div class="container">
-    <div class="row">
+  <div id="background-19" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-20" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-21" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-22" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-23" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-24" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-25" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-26" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-27" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-28" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-29" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-30" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-31" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-32" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-33" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-34" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-35" class="mouse-bg hidden-xs hidden-sm"></div>
+  <div id="background-36" class="mouse-bg hidden-xs hidden-sm"></div>
+<div class="container">
+  <div class="row">
       <div class="col-md-12">
-        <div class="download-table">
-          <div class="download-table-cell">
-            <h2>Bufet is Awesome ! <br>It’s <span> Free </span> to Download for Everyone</h2>
+          <div class="download-table">
+              <div class="download-table-cell">
+                  <h2>{{"Home.Bufet is Awesome !" | translate}} <br>{{"Home.It’s" | translate}} <span> {{"Home.Free" | translate}} </span> {{"Home.to Download for Everyone" | translate}}</h2>
 
-            <div class="button-group store-buttons">
-                          <a href="#" class="btn-style-2 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-                              <span class="ti-android"></span>
-                              <p class="dsp-tc">available on
-                                  <br> <span>Google Store</span></p>
-                          </a>
-                          <a href="#" class=" btn-style-2 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".2s">
-                              <span class="ti-apple"></span>
-                              <p class="dsp-tc">available on
-                                  <br> <span>Apple Store</span></p>
-                          </a>
-                      </div>
+                  <div class="button-group store-buttons">
+                      <a href="#" class="btn-style-2 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                          <span class="ti-android"></span>
+                          <p class="dsp-tc">{{"Home.available on" | translate}}
+                              <br> <span>{{"Home.Google Store" | translate}}</span></p>
+                      </a>
+                      <a href="#" class=" btn-style-2 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".2s">
+                          <span class="ti-apple"></span>
+                          <p class="dsp-tc">{{"Home.available on" | translate}}
+                              <br> <span>{{"Home.Apple Store" | translate}}</span></p>
+                      </a>
+                  </div>
 
+              </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
+</div>
 </section>
 
- <!--DOWNLOAD-AREA  END-->
+<!--DOWNLOAD-AREA  END-->
 
- <!-- subscription area start -->
-<section id="subscribe-area">
-    <div class="container">
-        <div class="subscribe-wrapper">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="subscribe-text">
-                        <h2>SubscribE Now</h2>
-                    </div>
+<!--BLOG-AREA  END-->
+<section id="blog" class="blog-area ">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading text-center">
+              <h2>{{"Home.Latest Blog Post" | translate}}</h2>
+              <img src="assets/img/section/section-icon.png" alt="place your img">
+              <p>{{"Home.date" | translate}}</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="single-blog-box">
+                <div class="single-blog-image">
+                    <a [routerLink]="['/details']"><img src="assets/img/blog/blog-1.jpg" alt="place your img"></a>
                 </div>
-                <div class="col-sm-8">
-                    <div class="subscribe-box">
-                        <form class="subscription-form" method="POST" action="php/subscribe.php">
-                            <input type="email" class="form-control" id="subscribe-input" name="subscribe-input" placeholder="Enter Your Email Address">
-                            <button class="email-submit-btn" type="submit">go</button>
-                        </form>
-                    </div>
+              <div class="post-meta clearfix">
+                  <div class="posted-by pull-left">
+                      <p><a [routerLink]="['/details']"><span class="ti-user"></span>{{"Home.date" | translate}}</a></p>
+                  </div>
+                  <div class="post-date pull-right">
+                      <p><a [routerLink]="['/details']"><span class="ti-comment"></span>(23)</a></p>
+                  </div>
+              </div>
+                <div class="blog-heading">
+                    <a [routerLink]="['/details']"><h2>{{"Home.p12" | translate}}</h2></a>
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+          <div class="single-blog-box">
+              <div class="single-blog-image">
+                  <a [routerLink]="['/details']"><img src="assets/img/blog/blog-2.jpg" alt="place your img"></a>
+              </div>
+            <div class="post-meta clearfix">
+                <div class="posted-by pull-left">
+                    <p><a [routerLink]="['/details']"><span class="ti-user"></span>{{"Home.date" | translate}}</a></p>
+                </div>
+                <div class="post-date pull-right">
+                    <p><a [routerLink]="['/details']"><span class="ti-comment"></span>(23)</a></p>
+                </div>
+            </div>
+              <div class="blog-heading">
+                  <a [routerLink]="['/details']"><h2>{{"Home.p12" | translate}}</h2></a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="single-blog-box">
+              <div class="single-blog-image">
+                  <a [routerLink]="['/details']"><img src="assets/img/blog/blog-3.jpg" alt="place your img"></a>
+              </div>
+            <div class="post-meta clearfix">
+                <div class="posted-by pull-left">
+                    <p><a [routerLink]="['/details']"><span class="ti-user"></span>{{"Home.date" | translate}}</a></p>
+                </div>
+                <div class="post-date pull-right">
+                    <p><a [routerLink]="['/details']"><span class="ti-comment"></span>(23)</a></p>
+                </div>
+            </div>
+              <div class="blog-heading">
+                  <a [routerLink]="['/details']"><h2>{{"Home.p12" | translate}}</h2></a>
+              </div>
+          </div>
+      </div>
     </div>
+</div>
 </section>
-  <!-- CONTACT SECTION -->
+
+<!--BLOG-AREA  END-->
+<!-- subscription area start -->
+<section id="subscribe-area">
+<div class="container">
+  <div class="subscribe-wrapper">
+      <div class="row">
+          <div class="col-sm-4 col-xs-12">
+              <div id="Contact" class="subscribe-text">
+                  <h2>{{"Home.SubscribE Now" | translate}}</h2>
+              </div>
+          </div>
+          <div class="col-sm-8 col-xs-12">
+              <div class="subscribe-box">
+                  <form action="http://hackinout.us15.list-manage.com/subscribe/post-json?u=e44c1f194bec93e238615469e&amp;id=fa63cb4ac7&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Email Address" required>
+                      <div aria-hidden="true">
+                          <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
+                      </div>
+                      <input type="submit" value="GO" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
+                      <div id="subscribe-result">
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- CONTACT SECTION -->
 <section class="footer-bg">
 <div id="contact-section" class="gray-bg">
-    <div class="container">
-        <div class="contact-wrapper">
-        <div class="row">
-                <div class="col-sm-5">
-                    <div class="contact-form-area">
-                        <h2 class="text-capitalize">Contact us</h2>
-                        <form id="digita-contact-form" action="php/contact-mail.php" method="POST">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name*">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="Website" name="website" placeholder="Your Website">
-                            </div>
-                            <div class="form-group">
-                                <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Write Message*"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-blue"><img src="assets/img/icons/send-icon.png" alt="place your img"></button>
-                            <p class="contact-send-message"></p>
-                        </form>
-                    </div>
-                </div>
-            <div class="col-sm-7">
+<div class="container">
+  <div class="contact-wrapper">
+      <div class="row">
+              <div class="col-sm-5">
+                  <div class="contact-form-area">
+                      <h2 class="text-capitalize">{{"Home.Contact us" | translate}}</h2>
+                      <form id="digita-contact-form" action="php/contact-mail.php" method="POST">
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name*">
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address*">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="Website" name="website" placeholder="Your Website">
+                          </div>
+                          <div class="form-group">
+                              <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Write Message*"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-blue"><img src="assets/img/icons/send-icon.png" alt="place your img"></button>
+                          <p class="contact-send-message"></p>
+                      </form>
+                  </div>
+              </div>
+          <div class="col-sm-7">
               <div class="google-map">
                   <div id="map"></div>
               </div>
-            </div>
-        </div>
-    </div>
-    </div>
+          </div>
+      </div>
+  </div>
 </div>
-
+</div>
+</section>
 <!-- /CONTACT SECTION -->
 
